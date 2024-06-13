@@ -16,9 +16,10 @@
      
     max-width: 540px;
     background-color: white;
-    margin: 100px auto 20px;
+    margin:  100px auto;  
     padding: 40px 30px 70px;
     border-radius: 10px;
+    
    
 }
 
@@ -61,6 +62,7 @@ font-family: 14px;
 }
 
 button{
+    
     border: none;
     outline: none;
 
@@ -75,16 +77,20 @@ button{
 
 ul li{
 
-    list-style: none; 
+    list-style:none;
+
     font-size: 17px;
     padding: 12px 8px 12px 50px;
     cursor: pointer;
     position: relative;
+
     user-select: none;
 }
 
 
-/* Pseudo-element: ::before is one of the CSS pseudo-elements. Pseudo-elements allow you to style specific parts of an element, such as the first letter or line, or in this case, content before the element's actual content. */
+/* Pseudo-element: ::before is one of the CSS pseudo-elements.
+ Pseudo-elements allow you to style specific parts of an element, such as the first letter or line,
+or in this case, content before the element's actual content. */
 
 
 
